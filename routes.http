@@ -2,7 +2,15 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-  "title":"ola nlw",
-  "details":"evento nlw",
-  "maximumAttendees":100
+  "title":"nlw de 2860",
+  "details":null,
+  "maximumAttendees": 1
+}
+###
+POST http://localhost:3333/events/8d20e900-9c90-4c31-857b-f7a9535b6f88/attendees
+Content-Type: application/json
+
+{
+  "name":"ryan lopes martins",
+  "email":"ryan4@rocketseat.com.br"
 }
